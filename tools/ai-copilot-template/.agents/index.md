@@ -17,6 +17,8 @@
 | `skills/code-review/SKILL.md` | 代码审查、严重度、findings 输出、验证缺口识别 | 用户要求 review、检查 diff、评审 PR/MR 或确认实现质量时 |
 | `mcp/README.md` | MCP / 外部工具接入说明 | 需要配置或审查外部工具接入时 |
 
+个人复用的 `component-engineering` skill（若当前环境已安装）负责组件工程场景路由和方法；本索引与 `projects/profile.md`、`projects/overview.md` 负责当前仓库事实。Skill 不替代项目文档。
+
 ## 默认加载规则
 
 ### 简单问答
@@ -48,6 +50,17 @@
 
 如果涉及历史坑、禁改区或推荐参考，再读 `projects/notes.md`。
 
+### 组件新增、改造或简化
+
+按需读取：
+
+1. 若 `component-engineering` skill 可用，选择与任务对应的一份场景提示词，不加载所有场景。
+2. `projects/profile.md`，确认代码目录、入口和项目约定。
+3. `projects/overview.md`，确认组件所属产品模块和依赖边界。
+4. `validation.md`，确定测试落点和验证命令。
+
+如果没有可用的个人 skill，直接按本索引和项目事实完成任务，不因缺少 skill 阻断。
+
 ### 需求审查或方案判断
 
 按需读：
@@ -75,6 +88,8 @@
 1. `projects/overview.md`
 2. `projects/profile.md`
 3. `core.md`
+
+需要记录或修订目录结构和产品架构时：目录地图写入 `projects/profile.md`；产品目标、模块边界和关键数据流写入 `projects/overview.md`。避免把这些项目事实复制进通用 Skill。
 
 ### 验证、测试或完成确认
 

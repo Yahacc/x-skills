@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebSearch",
-      "Edit(/.claude/skills/prompt-design/**)",
-      "Read(//c/Users/Administrator/.claude/**)"
-    ]
-  }
-}

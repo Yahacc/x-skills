@@ -34,6 +34,16 @@
 - 自动生成目录：`<GENERATED_PATHS>`，例如：`src/.umi`
 - 禁止手工修改目录：`<DO_NOT_EDIT_PATHS>`，例如：`dist、coverage、generated、.umi`
 
+### 稳定目录地图
+
+只记录能帮助定位代码和判断边界的稳定目录，不复制完整文件树。标出主要目录的职责、重要入口，以及它属于应用、共享包、测试、构建配置还是生成物。
+
+| 路径 | 职责 | 关键入口/边界 |
+| --- | --- | --- |
+| `<STABLE_PATH>` | `<RESPONSIBILITY>` | `<ENTRY_OR_BOUNDARY>` |
+
+目录较少时，可以直接在上方结构字段补充；避免维护很快过期的逐文件清单。
+
 ## 编码约定
 
 - 命名规则：`<NAMING_CONVENTIONS>`

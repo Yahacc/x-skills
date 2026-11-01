@@ -1,18 +1,18 @@
 {
   "templateName": "team-ai-copilot-template",
-  "templateVersion": "0.1.0",
+  "templateVersion": "0.2.0",
   "templateSource": "<TEMPLATE_REPOSITORY_OR_PATH>",
   "installedAt": "<YYYY-MM-DD>",
   "installedBy": "<OWNER_OR_TEAM>",
   "projectName": "<PROJECT_NAME>",
   "localChanges": [
     {
-      "file": ".agents/projects/profile.md",
-      "reason": "填写项目技术栈、目录结构、命令和编码约定。"
+      "file": ".agents/projects/overview.md",
+      "reason": "填写产品定位、用户工作流、模块边界和架构/数据流。"
     },
     {
-      "file": ".agents/projects/overview.md",
-      "reason": "填写项目业务背景、模块边界和核心数据流。"
+      "file": ".agents/projects/profile.md",
+      "reason": "填写项目技术栈、稳定目录地图、命令和编码约定。"
     },
     {
       "file": ".agents/projects/notes.md",

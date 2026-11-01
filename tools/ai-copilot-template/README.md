@@ -23,12 +23,13 @@ AGENTS.md
 
 复制后，先完成以下最小初始化：
 
-1. 在 `.agents/projects/profile.md` 填写项目名、技术栈、源码目录、常用命令和禁改目录。
-2. 在 `.agents/projects/overview.md` 填写业务背景、模块边界和核心数据流。
+1. 在 `.agents/projects/profile.md` 填写项目名、技术栈、稳定目录地图、常用命令和禁改目录。
+2. 在 `.agents/projects/overview.md` 填写产品定位、用户工作流、模块边界、架构关系和关键数据流。
 3. 在 `.agents/projects/notes.md` 填写至少一个历史坑、禁改区或已知基线问题；没有则明确写“暂无”。
 4. 在 `.agents/validation.md` 填写项目验证矩阵、测试位置和已知基线问题。
 5. 复制 `.agents/template.lock.example.json` 为 `.agents/template.lock.json`，记录模板版本和本地改动说明。
 6. 检查 `.agents/mcp/README.md`，确认 MCP/tool 配置由项目用户自行维护。
+7. 若个人环境已安装 `component-engineering` skill，组件任务可由它路由到场景提示词；项目目录和产品架构仍只记录在本项目的 `.agents/projects/` 文档中。
 
 复制后，优先填写或调整：
 
@@ -59,5 +60,6 @@ AGENTS.md
 - `.agents/template.lock.json` 应由项目实例化后生成，用于记录模板来源和本地改动。
 - 项目事实优先写入 `.agents/projects/profile.md`。
 - 项目架构和业务上下文优先写入 `.agents/projects/overview.md`。
+- 产品架构描述用户任务、系统/模块职责、依赖方向和数据流；技术栈与目录地图写入 `.agents/projects/profile.md`。
 - 历史坑和注意事项优先写入 `.agents/projects/notes.md`。
 - MCP/tool 配置按项目用户填写内容维护，模板不强制环境变量写法。

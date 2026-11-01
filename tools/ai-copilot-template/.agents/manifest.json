@@ -1,6 +1,6 @@
 {
   "templateName": "team-ai-copilot-template",
-  "templateVersion": "0.1.0",
+  "templateVersion": "0.2.0",
   "description": "团队级 AI Copilot 轻量协作模板。",
   "requiredFiles": [
     "AGENTS.md",
@@ -34,7 +34,8 @@
     "私有证书"
   ],
   "notes": [
-    "复制到项目后优先填写 projects/profile.md、projects/overview.md、projects/notes.md 和 validation-policy.md。",
+    "profile.md 记录技术栈和稳定目录地图；overview.md 记录产品架构、模块职责与关键工作流。",
+    "复制到项目后优先填写 projects/profile.md、projects/overview.md、projects/notes.md 和 validation.md。",
     "MCP/tool 配置按项目用户填写内容维护，模板不强制环境变量写法。"
   ]
 }

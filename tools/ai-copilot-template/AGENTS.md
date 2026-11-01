@@ -20,6 +20,7 @@
 - 需要验证命令或完成口径时，读取 `.agents/validation.md`。
 - 需要需求审查时，读取 `.agents/skills/requirement-review/SKILL.md`。
 - 需要代码审查时，读取 `.agents/skills/code-review/SKILL.md`。
+- 组件新增、改造、简化或设计任务：按 `.agents/index.md` 加载项目事实；若当前环境提供 `component-engineering` skill，使用它选择对应场景提示词。项目事实始终以本仓库文档和代码为准。
 
 ## 基本原则
 
